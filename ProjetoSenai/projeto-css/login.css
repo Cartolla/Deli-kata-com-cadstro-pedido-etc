@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: #201b2c;
+}
+
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5); /* escurece o vídeo para contraste */
+}
+
+.card-login {
+    position: relative;
+    z-index: 1;
+    width: 350px; /* Aumenta a largura do cartão */
+    padding: 25px; /* Aumenta o padding */
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    border-radius: 15px; /* Cantos mais arredondados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra mais suave */
+    color: #333;
+    text-align: center; /* Centraliza o texto */
+}
+
+.card-login > h1 {
+    color: #ff4f61; /* cor para o título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.subtitulo {
+    color: #666; /* Cor mais clara para o subtítulo */
+    font-size: 14px; /* Tamanho da fonte do subtítulo */
+    margin-bottom: 20px; /* Espaçamento abaixo do subtítulo */
+}
+
+.textfield {
+    margin-bottom: 15px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.textfield label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Negrito para os rótulos */
+}
+
+.textfield input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; /* Negrito para o botão */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.btn-login:hover {
+    background-color: #f7c700; /* muda a cor ao passar o mouse */
+}
+
+.cadastro-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #ff4f61; /* Cor do texto do link */
+    font-weight: bold; /* Negrito para o link */
+}
+
+.cadastro-link a {
+    color: #ff4f61; /* Mantém a cor do link */
+    text-decoration: underline; /* Sublinha o texto do link */
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+.cadastro-link a:hover {
+    color: #f7c700; /* Muda a cor do link ao passar o mouse */
+}

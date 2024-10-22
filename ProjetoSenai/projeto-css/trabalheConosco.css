@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    color: #fff; /* Cor do texto em branco para contraste */
+}
+
+.secao-trabalhe {
+    padding: 20px;
+    background: #fff; /* Fundo branco para a seção */
+    color: #000; /* Cor do texto em preto para contraste */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+    max-width: 900px; /* Largura máxima da seção */
+    margin: 50px auto; /* Centraliza a seção na tela */
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    font-size: 2.5rem; /* Tamanho do título */
+    color: #c0392b; /* Cor do título */
+}
+
+p {
+    font-size: 1.1rem; /* Tamanho da fonte */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+    color: #555; /* Cor do texto */
+}
+
+.vagas-container {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+    margin-bottom: 20px; /* Espaçamento abaixo do container */
+}
+
+.vaga {
+    background: #f7f7f7; /* Cor de fundo dos quadrados */
+    padding: 20px;
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    width: 280px; /* Largura do quadrado */
+    text-align: center; /* Centraliza o texto dentro do quadrado */
+}
+
+
+.vaga h2 {
+    color: #c0392b; /* Cor dos títulos das vagas */
+    margin-bottom: 10px; /* Espaçamento abaixo do título da vaga */
+}
+
+.info-contato {
+    margin-top: 20px; /* Espaçamento acima do contato */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.info-contato a {
+    color: #c0392b; /* Cor do link */
+    font-weight: bold; /* Negrito para o link */
+    text-decoration: underline; /* Sublinhado */
+}
+
+.info-contato a:hover {
+    color: #ff4f61; /* Muda a cor do link ao passar o mouse */
+}

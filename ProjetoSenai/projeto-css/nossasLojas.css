@@ -1,0 +1,40 @@
+.nossas-lojas {
+    padding: 40px 20px; /* Espaçamento da seção */
+}
+
+.container-lojas {
+    max-width: 800px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+    background-color: #fff; /* Fundo branco para o container */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor do container */
+}
+
+.nossas-lojas h1 {
+    text-align: center;
+    font-size: 2.5rem; /* Tamanho do título */
+    color: #c0392b; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.loja {
+    margin-bottom: 20px; /* Espaçamento entre as lojas */
+    padding: 15px;
+    border: 1px solid #ddd; /* Bordas para destacar cada loja */
+    background-color: #f9f9f9; /* Fundo levemente cinza para cada loja */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.loja h2 {
+    color: #c0392b; /* Cor do título das lojas */
+}
+
+.loja p {
+    color: #555; /* Cor do texto das informações */
+    margin: 5px 0;
+}
+
+.loja p strong {
+    color: #000; /* Cor mais forte para os rótulos (Endereço, Telefone, etc.) */
+}

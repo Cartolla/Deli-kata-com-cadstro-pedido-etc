@@ -1,0 +1,176 @@
+.cardapio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.card-sorvete {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-sorvete:hover {
+    transform: scale(1.05);
+}
+
+.img-sorvete {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.info-sorvete {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-sorvete h2 {
+    font-size: 1.5em;
+    color: #201b2c;
+}
+
+.descricao-sorvete {
+    font-size: 0.9em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.precos-sorvete p {
+    margin: 5px 0;
+}
+
+.promocao {
+    font-weight: bold;
+    color: #ff4f61;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #c0392b;
+}
+
+.secao-cardapio {
+    background-color: #fff; /* Fundo branco */
+    padding: 40px 20px;
+    border-radius: 15px; /* Bordas arredondadas para suavizar o visual */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras para dar destaque */
+    max-width: 1200px;
+    margin: 40px auto; /* Centraliza a seção na tela */
+}
+.secao-cardapio h2{
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+/* Seção Monte Seu Sorvete */
+/* Seção Monte Seu Sorvete */
+.secao-monte-sorvete {
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.secao-monte-sorvete h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1.2px;
+}
+
+.monte-sorvete-opcoes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.passo {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.passo:hover {
+    transform: scale(1.05);
+}
+
+.passo h3 {
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.passo p {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Seção Sabores Disponíveis */
+.secao-sabores {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.secao-sabores h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+}
+
+.lista-sabores {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lista-sabores li {
+    font-size: 18px;
+    margin: 10px 15px;
+    color: #555;
+    padding: 8px 12px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out, transform 0.3s;
+}
+
+.lista-sabores li:hover {
+    color: #e74c3c;
+    text-shadow: 0 0 15px rgba(255, 105, 180, 0.8), 0 0 20px rgba(255, 20, 147, 0.9);
+    transform: scale(1.05);
+}
+
+

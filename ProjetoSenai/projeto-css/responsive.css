@@ -1,0 +1,47 @@
+/* Largura de tela menor que 768px (celulares) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    /* Exemplo: ajustando imagens e cards de sorvetes */
+    .card-sorvete {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-sorvete {
+        width: 100%;
+        height: auto;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .info-sorvete {
+        padding: 10px;
+    }
+}
+
+/* Largura de tela menor que 1024px (tablets e pequenos desktops) */
+@media screen and (max-width: 1024px) {
+    .cardapio-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .menu a {
+        font-size: 1rem;
+    }
+}

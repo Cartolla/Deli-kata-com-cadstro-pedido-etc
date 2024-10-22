@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.container{
+    margin: 0 auto; 
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 05px;
+}
+
+.logo, sociais{
+   width: 20%; 
+}
+
+.logo img{
+    cursor: pointer;
+}
+
+.menu{
+    width: 55%;
+}
+
+.menu nav a{
+    color:rgb(215, 215, 216);
+    text-decoration: none;
+    padding-right: 30px;
+    position: relative; 
+    display: inline-block;
+}
+
+.menu nav a:hover {
+    color: #c0392b; /* Cor de destaque ao passar o mouse */
+}
+
+.sociais button i:hover {
+    color: #c0392b; /* Cor de destaque ao passar o mouse */
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #ff4f61, #f7c700);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 67px;
+}
+
+.sociais button{
+    width: 30px;
+    height: 30px;
+    background: #090000;
+    border: none;
+    margin-right: 05px;
+    cursor: pointer;
+}
+
+.sociais button i{
+    font-size: 16px;
+    color: #FFFF;
+}
+
+body{
+    background: #201b2c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eae8e8; /* Cor de fundo do rodapé */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
